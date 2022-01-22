@@ -1,0 +1,35 @@
+.tab-container {
+  margin-block: 20px;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.content-item {
+  width: 120px;
+  height: 120px;
+  background: grey;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  margin: 10px;
+  margin-bottom: 15px;
+}
+
+.content-wrapper .content-item img {
+  width: 120px;
+  height: 120px;
+}
+
+.content-wrapper .content-item .content-label {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 500;
+}

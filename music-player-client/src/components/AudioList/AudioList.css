@@ -1,0 +1,44 @@
+.audio-list {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: #000;
+  margin: 20px;
+}
+
+.audio-list-header {
+  margin-bottom: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.list-container {
+  padding-block: 10px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+}
+
+.list-item .song-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: grey;
+  margin-right: 15px;
+}
+
+.song-name {
+  letter-spacing: 0.05rem;
+  font-size: 0.9rem;
+}
+
+.artist-name {
+  font-size: 0.75rem;
+  color: grey;
+}
