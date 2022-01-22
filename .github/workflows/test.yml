@@ -19,5 +19,7 @@ jobs:
         with:
           node-version: "12.x"
       - name: Install dependencies
+        working-directory: ./music-player-client
         run: yarn
-      - run: yarn build
+      - working-directory: ./music-player-client
+        run: yarn build
