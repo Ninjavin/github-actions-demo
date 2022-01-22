@@ -10,3 +10,8 @@ jobs:
     steps:
       - run: echo "Started Building the Project..."
       - run: echo "Running..."
+  build-client-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: cd "./music-player-client/"
+      - run: npm build
