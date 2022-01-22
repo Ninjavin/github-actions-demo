@@ -13,4 +13,11 @@ jobs:
   build-client-repo:
     runs-on: ubuntu-latest
     steps:
-      - run: ls
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+      - name: Install dependencies
+        run: yarn
+      - run: yarn build
