@@ -13,5 +13,4 @@ jobs:
   build-client-repo:
     runs-on: ubuntu-latest
     steps:
-      - run: cd "./music-player-client/"
-      - run: npm build
+      - run: ls
